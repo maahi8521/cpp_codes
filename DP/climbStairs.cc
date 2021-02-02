@@ -14,5 +14,6 @@ int climbStairs(int n){
 
 int main(){
 	int n; cin >> n;
+	//abcd
 	cout << climbStairs(n);
 }
