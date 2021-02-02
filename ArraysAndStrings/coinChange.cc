@@ -6,7 +6,7 @@ int coinChange(vector<int> coins, int amount){
     int ans[amount+1];
     for(int i = 0; i <= amount; i++) ans[i] = 0;
         ans[0] = 1;
-
+	//abcd
         for(int j = 0; j < coins.size(); j++){
             for(int i = 1; i <= amount; i++){
                 if(i-coins[j]>=0) ans[i] += ans[i-coins[j]];
